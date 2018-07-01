@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fannypack",
+  "name": "FannyPack",
+  "description": "Like the Traveller's Belt",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["notanimposter"],
+  "credits": "me I guess",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["baubles"]
+}
+]
