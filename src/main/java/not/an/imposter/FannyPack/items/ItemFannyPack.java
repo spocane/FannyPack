@@ -42,7 +42,7 @@ public class ItemFannyPack extends ItemThing implements IBauble {
 		//this used to be in onCreated but I wanted to be able to call it
 		//from addInformation which no longer has the player argument
 		NBTTagCompound nbt = stack.getTagCompound();
-		if (nbt != null) {
+		if (nbt == null) {
 			nbt = new NBTTagCompound();
 			NBTTagList hotbars = new NBTTagList();
 			NBTTagList bar = new NBTTagList();
