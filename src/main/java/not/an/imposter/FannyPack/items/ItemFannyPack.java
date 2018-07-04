@@ -31,7 +31,7 @@ public class ItemFannyPack extends ItemThing implements IBauble {
 	}
 	@Override
 	public BaubleType getBaubleType(ItemStack itemstack) {
-		return BaubleType.BELT; //widen the scope of that shit later
+		return BaubleType.TRINKET; //widen the scope of that shit later
 	}
 	@Override
 	public void onCreated(ItemStack stack, World worldIn, EntityPlayer playerIn) {
