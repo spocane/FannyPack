@@ -80,7 +80,7 @@ public class ItemFannyPack extends ItemThing implements IBauble {
 	@Override
 	public void handleKey(EntityPlayer player) {
 		IBaublesItemHandler baubs = BaublesApi.getBaublesHandler(player);
-		ItemStack beltCopy = baubs.getStackInSlot(BaubleType.BELT.getValidSlots()[0]).copy(); //maybe should iterate?
+		ItemStack beltCopy = baubs.getStackInSlot(BaubleType.TRINKET.getValidSlots()[0]).copy(); //maybe should iterate?
 		NBTTagCompound beltNBT = beltCopy.getTagCompound();
 		if (beltNBT == null) {
 			onCreated(beltCopy,player.world,player);
