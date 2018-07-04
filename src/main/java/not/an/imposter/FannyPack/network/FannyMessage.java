@@ -44,7 +44,7 @@ public class FannyMessage implements IMessage {
 				switch(keyIndex) {
 					case HotkeyHandler.FANNY_PACK_NEXT:
 						IBaublesItemHandler baubs = BaublesApi.getBaublesHandler(serverPlayer);
-						ItemStack beltMaybe = baubs.getStackInSlot(BaubleType.BELT.getValidSlots()[0]); //maybe should iterate?
+						ItemStack beltMaybe = baubs.getStackInSlot(BaubleType.TRINKET.getValidSlots()[0]); //maybe should iterate?
 						if (beltMaybe != null && beltMaybe.getItem() instanceof ItemThing) {
 							((ItemThing) beltMaybe.getItem()).handleKey(serverPlayer); //but on the server
 						}
