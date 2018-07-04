@@ -16,7 +16,7 @@ import not.an.imposter.FannyPack.network.FannyMessage;
 @Mod(modid = FannyPack.MODID, version = FannyPack.VERSION, dependencies="required-after:baubles")
 public class FannyPack {
 	public static final String MODID = "fannypack";
-	public static final String VERSION = "1.0";
+	public static final String VERSION = "1.1.1";
 
 	@Mod.Instance(MODID)
 	public static FannyPack instance;
