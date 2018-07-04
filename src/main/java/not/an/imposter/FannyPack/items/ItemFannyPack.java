@@ -113,6 +113,6 @@ public class ItemFannyPack extends ItemThing implements IBauble {
 		
 		beltNBT.setTag("hotbars", hotbars);
 		beltCopy.setTagCompound(beltNBT);
-		baubs.setStackInSlot(BaubleType.BELT.getValidSlots()[0], beltCopy);
+		baubs.setStackInSlot(BaubleType.TRINKET.getValidSlots()[0], beltCopy);
 	}
 }
